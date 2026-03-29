@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-03-29T21:31:11.337Z",
+  "phase": "00",
+  "phase_name": "fundraising-package",
+  "phase_dir": ".planning/phases/00-fundraising-package",
+  "plan": 3,
+  "task": 7,
+  "total_tasks": 7,
+  "status": "paused",
+  "completed_tasks": [
+    {"id": 1, "name": "00-01 Task 1: Build Next.js landing page", "status": "done", "commit": "f882efa"},
+    {"id": 2, "name": "00-01 Task 2: Human verify website", "status": "done", "commit": "26ded02"},
+    {"id": 3, "name": "00-02 Task 1: Social media kit", "status": "done", "commit": "5124464"},
+    {"id": 4, "name": "00-02 Task 2: Update Footer with social URLs", "status": "done", "commit": "ecc2015"},
+    {"id": 5, "name": "00-02 Task 3: Human verify social accounts", "status": "done", "commit": "6f6438a"},
+    {"id": 6, "name": "00-03 Task 1: Pitch deck + one-pager", "status": "done", "commit": "44a11e4"},
+    {"id": 7, "name": "00-03 Task 2: Grant targets + investor targets + Polkadot proposal", "status": "done", "commit": "5246bfd"}
+  ],
+  "remaining_tasks": [],
+  "blockers": [],
+  "human_actions_pending": [
+    {"action": "Fill in pitch deck placeholders: Slide 7 waitlist count, Slide 8 founder bio, Slides 11+12 funding amount and email", "context": "Pitch deck content is complete but has [brackets] for personal info", "blocking": false},
+    {"action": "Create social media accounts (Instagram, TikTok, X, LinkedIn)", "context": "Setup guides and bio templates ready in social-media-kit/", "blocking": false},
+    {"action": "Update Footer.tsx with real social media URLs once accounts are created", "context": "Currently has placeholder URLs", "blocking": false},
+    {"action": "Downgrade Vercel to Hobby plan if not done yet", "context": "Pro trial expires in ~14 days", "blocking": false},
+    {"action": "Run phase verification to formally complete Phase 0", "context": "All 3 plans executed, verification not yet run", "blocking": false}
+  ],
+  "decisions": [
+    {"decision": "GitHub is ground truth (not Notion)", "rationale": "Notion integration had access issues", "phase": "00"},
+    {"decision": "Phase 0 added before Phase 1", "rationale": "Non-technical founder needs funding before technical build", "phase": "00"},
+    {"decision": "Kit form ID 9263288 for waitlist", "rationale": "User selected this inline form in Kit", "phase": "00"},
+    {"decision": "Domain is takesavillage.health", "rationale": ".org was taken, .health registered on Namecheap", "phase": "00"},
+    {"decision": "Pitch deck hosted at /deck.html", "rationale": "Antigravity built HTML deck from pitch-deck-content.md", "phase": "00"}
+  ],
+  "uncommitted_files": [],
+  "next_action": "Run /gsd:execute-phase 0 to trigger phase verification, or fill in pitch deck placeholders and create social accounts",
+  "context_notes": "All 3 plans executed successfully. Website is live at takesavillage.health. Pitch deck is live at takesavillage.health/deck.html. Social media kit and pitch materials are in the repo. Phase verification has NOT been run yet — need to formally close Phase 0. Founder still needs to: fill pitch deck personal info, create social accounts, downgrade Vercel to Hobby plan, start grant applications using grant-targets.md."
+}
