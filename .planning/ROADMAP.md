@@ -47,7 +47,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 3 plans
 
 Plans:
-- [ ] 00-01: Website — Next.js 15 site on Vercel free tier, brand identity (logo, colors, typography), hero + problem + solution + how it works + funders + waitlist sections, email capture via free service, responsive design, SEO basics
+- [x] 00-01: Website — Next.js 15 site on Vercel free tier, brand identity (logo, colors, typography), hero + problem + solution + how it works + funders + waitlist sections, email capture via free service, responsive design, SEO basics
 - [ ] 00-02: Social media setup + content — Create accounts on Instagram, TikTok, X, LinkedIn, initial content strategy and posts, link everything to website waitlist CTA
 - [ ] 00-03: Pitch materials — Pitch deck (10-15 slides), executive one-pager, grant target research (SAMHSA, Web3 ecosystem grants, Polkadot treasury, tech-for-good foundations), investor target list
 
@@ -248,7 +248,7 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 0. Fundraising Package | 0/3 | Ready to plan | - |
+| 0. Fundraising Package | 1/3 | In Progress|  |
 | 1. Foundation and Identity | 0/4 | Not started (awaiting funding) | - |
 | 2. Facility Registry and DKG Flywheel | 0/4 | Not started | - |
 | 3. Search, Discovery, and Reviews | 0/3 | Not started | - |
