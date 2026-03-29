@@ -49,7 +49,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 - [x] 00-01: Website — Next.js 15 site on Vercel free tier, brand identity (logo, colors, typography), hero + problem + solution + how it works + funders + waitlist sections, email capture via free service, responsive design, SEO basics
 - [ ] 00-02: Social media setup + content — Create accounts on Instagram, TikTok, X, LinkedIn, initial content strategy and posts, link everything to website waitlist CTA
-- [ ] 00-03: Pitch materials — Pitch deck (10-15 slides), executive one-pager, grant target research (SAMHSA, Web3 ecosystem grants, Polkadot treasury, tech-for-good foundations), investor target list
+- [x] 00-03: Pitch materials — Pitch deck (10-15 slides), executive one-pager, grant target research (SAMHSA, Web3 ecosystem grants, Polkadot treasury, tech-for-good foundations), investor target list
 
 **UI hint**: yes
 
