@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-03-29T19:34:37.500Z",
+  "phase": "00",
+  "phase_name": "fundraising-package",
+  "phase_dir": ".planning/phases/00-fundraising-package",
+  "plan": 1,
+  "task": 0,
+  "total_tasks": 7,
+  "status": "paused",
+  "completed_tasks": [],
+  "remaining_tasks": [
+    {"id": 1, "name": "00-01 Task 1: Build Next.js landing page with brand identity, 6 sections, Kit waitlist", "status": "not_started"},
+    {"id": 2, "name": "00-01 Task 2: Human verify website before deploy", "status": "not_started"},
+    {"id": 3, "name": "00-02 Task 1: Create social media kit (bios, content calendar, post templates)", "status": "not_started"},
+    {"id": 4, "name": "00-02 Task 2: Update Footer.tsx with live social URLs", "status": "not_started"},
+    {"id": 5, "name": "00-02 Task 3: Human verify social accounts created", "status": "not_started"},
+    {"id": 6, "name": "00-03 Task 1: Create pitch deck + one-pager from research corpus", "status": "not_started"},
+    {"id": 7, "name": "00-03 Task 2: Research grant targets + investor targets + draft Polkadot proposal", "status": "not_started"}
+  ],
+  "blockers": [
+    {"description": "Domain not registered (takesavillage.health or takesavillage.care)", "type": "human_action", "workaround": "Can build site with placeholder URL, update domain later"},
+    {"description": "Kit (ConvertKit) account not created — need API key and Form ID for waitlist", "type": "human_action", "workaround": "Can build site with mock form, wire up Kit later"},
+    {"description": "Vercel not connected to GitHub repo", "type": "human_action", "workaround": "Site can be tested locally, deploy after Vercel is connected"}
+  ],
+  "human_actions_pending": [
+    {"action": "Register domain (takesavillage.health or takesavillage.care)", "context": "Research found .org is taken. .health or .care are available.", "blocking": false},
+    {"action": "Create Kit (ConvertKit) free account at kit.com, create waitlist form, get API key + Form ID", "context": "Kit has 10K free subscribers. Mailchimp free tier only 250.", "blocking": false},
+    {"action": "Connect GitHub repo (paxtontribe/TakesaVillage) to Vercel for auto-deployment", "context": "Sign up at vercel.com with GitHub account, import the repo", "blocking": false}
+  ],
+  "decisions": [
+    {"decision": "GitHub replaces Notion as ground truth", "rationale": "Notion integration had access issues", "phase": "00"},
+    {"decision": "Phase 0 added before Phase 1", "rationale": "Creator is non-technical, needs funding before technical build", "phase": "00"},
+    {"decision": "Custodial wallet for PoP onboarding", "rationale": "Simplest UX for crisis users, platform holds keys", "phase": "01"},
+    {"decision": "Kit over Mailchimp for waitlist", "rationale": "10K free subscribers vs 250", "phase": "00"},
+    {"decision": "takesavillage.health or .care domain", "rationale": ".org is registered on Afternic resale marketplace", "phase": "00"}
+  ],
+  "uncommitted_files": [],
+  "next_action": "Complete 3 human setup tasks (domain, Kit, Vercel), then run /gsd:execute-phase 0",
+  "context_notes": "Session covered: GitHub setup and first push, Notion abandoned, Phase 0 added to roadmap, discuss-phase captured decisions for both Phase 0 (website/social/pitch) and Phase 1 (technical decisions deferred for post-funding). Research found domain conflict, Kit as email winner, TikTok content restrictions. Plans created and verified. All 3 external services need human setup before execution can begin — but plans can execute with placeholders if user wants to build first and configure services later."
+}
