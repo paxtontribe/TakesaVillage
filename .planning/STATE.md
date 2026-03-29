@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 00-02-PLAN.md
-last_updated: "2026-03-29T20:40:06.485Z"
+stopped_at: Completed 00-03-PLAN.md
+last_updated: "2026-03-29T20:39:53.722Z"
 last_activity: 2026-03-29
 progress:
   total_phases: 6
@@ -58,7 +58,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 00 P01 | 10min | 2 tasks | 30 files |
-| Phase 00 P02 | 6min | 3 tasks | 16 files |
+| Phase 00 P03 | 6min | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -77,9 +77,9 @@ Recent decisions affecting current work:
 - [Phase 00]: Tailwind v4 CSS @theme syntax used instead of tailwind.config.ts (v4 convention)
 - [Phase 00]: Kit V3 API at api.convertkit.com for waitlist capture (10K free subscribers)
 - [Phase 00]: Brand identity: teal #2D7D6F primary, amber #F4A261 accent, Inter typography
-- [Phase 00]: Social media handle 'takesavillage' reserved across 4 platforms with documented fallbacks
-- [Phase 00]: TikTok 18+ age gate required for all substance-adjacent content
-- [Phase 00]: Safe messaging guidelines: person-first language, hope-forward, no drug naming, SAMHSA helpline on all platforms
+- [Phase 00]: Pitch deck uses markdown format for Canva/Google Slides conversion
+- [Phase 00]: Polkadot Treasury proposal targets Small Spender track (5K-10K DOT), submit after website live
+- [Phase 00]: Grant priority: Polkadot Treasury fastest (4-6wk), SAMHSA highest dollar (3-6mo), RWJF next cycle (6-12mo)
 
 ### Pending Todos
 
@@ -109,6 +109,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-29T20:40:06.468Z
-Stopped at: Completed 00-02-PLAN.md
+Last session: 2026-03-29T20:39:53.704Z
+Stopped at: Completed 00-03-PLAN.md
 Resume file: None
