@@ -2,7 +2,7 @@
 
 ## Overview
 
-Takes a Village is built on a strict dependency chain that must not be violated: identity before content, content before users, users before governance and funding, and every agent must wait for data worth querying and a validated crisis escalation path. This roadmap delivers the platform in five coarse phases that mirror that dependency chain. Phase 1 is infrastructure and identity — the trust primitive everything else depends on. Phase 2 is the facility registry and DKG flywheel — the data layer that makes the platform worth visiting. Phase 3 is the public-facing product: search, discovery, and the authenticated-anonymous review system that is the platform's primary competitive differentiator. Phase 4 is funding and DAO governance — structurally gated on FinCEN attorney review before any smart contract disbursement logic is written. Phase 5 is social AI agents — last because they require the DKG to be well-populated, the NeuroWeb SDK spike to have resolved, Meta's app review to have cleared, and crisis escalation to be validated with real-world testing before any agent goes public. Three legal gates are hard blockers, not risk items: AKS attorney review before Phase 2, 42 CFR Part 2 attorney review before Phase 2/3, and FinCEN/BSA attorney review before Phase 4.
+Takes a Village is built on a strict dependency chain that must not be violated: funding before building, identity before content, content before users, users before governance and funding, and every agent must wait for data worth querying and a validated crisis escalation path. Phase 0 is the fundraising package — a live website, social media presence, and pitch materials that demonstrate the vision and capture early interest. The creator is non-technical; Phase 0 must be achievable with minimal cost and no specialized engineering. Phases 1-5 execute the technical build post-funding. Phase 1 is infrastructure and identity — the trust primitive everything else depends on. Phase 2 is the facility registry and DKG flywheel — the data layer that makes the platform worth visiting. Phase 3 is the public-facing product: search, discovery, and the authenticated-anonymous review system that is the platform's primary competitive differentiator. Phase 4 is funding and DAO governance — structurally gated on FinCEN attorney review before any smart contract disbursement logic is written. Phase 5 is social AI agents — last because they require the DKG to be well-populated, the NeuroWeb SDK spike to have resolved, Meta's app review to have cleared, and crisis escalation to be validated with real-world testing before any agent goes public. Three legal gates are hard blockers, not risk items: AKS attorney review before Phase 2, 42 CFR Part 2 attorney review before Phase 2/3, and FinCEN/BSA attorney review before Phase 4.
 
 ---
 
@@ -14,7 +14,8 @@ Takes a Village is built on a strict dependency chain that must not be violated:
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation and Identity** — Project infrastructure, Polkadot PoP auth with abstracted wallet onboarding, OriginTrail node setup, SAMHSA N-SSATS ETL pipeline, NeuroWeb SDK spike, Meta app review submission
+- [ ] **Phase 0: Fundraising Package** — Live website on Vercel, waitlist signup, social media presence (Instagram, TikTok, X, LinkedIn), pitch deck, funder/partner materials — pre-funding phase, minimal cost, non-technical founder can maintain
+- [ ] **Phase 1: Foundation and Identity** — Project infrastructure, Polkadot PoP auth with abstracted wallet onboarding, OriginTrail node setup, SAMHSA N-SSATS ETL pipeline, NeuroWeb SDK spike, Meta app review submission — GATED: requires funding from Phase 0
 - [ ] **Phase 2: Facility Registry and DKG Flywheel** — Facility Knowledge Assets on DKG, SCAN supply chain provenance, W3C/GSI structured profiles, transparency scoring, cold-start seeding — GATED: AKS attorney review + 42 CFR Part 2 review must complete before this phase begins
 - [ ] **Phase 3: Search, Discovery, and Reviews** — Facility search and filter UI, AI situational matching, authenticated-anonymous review system with nullifier scheme, SciGraph/Semantic Scholar integration, transparency scores in UI
 - [ ] **Phase 4: Funding Finder and DAO Governance** — Grants directory, eligibility matching, facility scholarships, Snapshot DAO + Safe multisig, on-chain voting — GATED: FinCEN/BSA attorney review must complete before this phase begins; FUND-04 direct crypto disbursements to individuals deferred pending review outcome
@@ -23,6 +24,36 @@ Decimal phases appear between their surrounding integers in numeric order.
 ---
 
 ## Phase Details
+
+### Phase 0: Fundraising Package
+
+**Goal**: A live, professional website captures waitlist signups and communicates the Takes a Village vision. Social media accounts on Instagram, TikTok, X (Twitter), and LinkedIn drive traffic and build community. Pitch materials (deck, one-pager, funder page on site) leverage the existing research and architecture documentation to demonstrate technical depth and market understanding. Early traction (signup count, social following) provides proof of demand for grant applications and investor conversations.
+
+**Why now**: The technical platform (Phases 1-5) requires funding to build. The creator is non-technical — Phase 0 deliverables must be achievable with minimal cost and no specialized engineering. The research corpus, roadmap, and requirement documentation already exist and are the primary fundraising assets. Phase 0 packages these assets into a form that funders can evaluate.
+
+**Depends on**: Nothing (first phase)
+
+**Requirements**: None (pre-platform phase — no v1 requirements apply)
+
+**Cost target**: Near zero — free Vercel hosting, free social accounts, domain registration (~$10-15/year), free email service tier
+
+**Success Criteria** (what must be TRUE):
+  1. A live website at a custom domain communicates the mission, problem, solution, and includes a working email waitlist signup
+  2. A "For Funders/Partners" section on the site surfaces the technical architecture depth, legal awareness, and market analysis without requiring visitors to read raw markdown files
+  3. Social media accounts on Instagram, TikTok, X, and LinkedIn are active with initial content and link back to the website
+  4. A pitch deck exists that can be sent cold to funders — backed by the research corpus
+  5. The GitHub repo (paxtontribe/TakesaVillage) presents professionally with the planning docs visible to technical reviewers
+
+**Plans**: 3 plans
+
+Plans:
+- [ ] 00-01: Website — Next.js 15 site on Vercel free tier, brand identity (logo, colors, typography), hero + problem + solution + how it works + funders + waitlist sections, email capture via free service, responsive design, SEO basics
+- [ ] 00-02: Social media setup + content — Create accounts on Instagram, TikTok, X, LinkedIn, initial content strategy and posts, link everything to website waitlist CTA
+- [ ] 00-03: Pitch materials — Pitch deck (10-15 slides), executive one-pager, grant target research (SAMHSA, Web3 ecosystem grants, Polkadot treasury, tech-for-good foundations), investor target list
+
+**UI hint**: yes
+
+---
 
 ### Phase 1: Foundation and Identity
 
@@ -217,7 +248,8 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation and Identity | 0/4 | Not started | - |
+| 0. Fundraising Package | 0/3 | Ready to plan | - |
+| 1. Foundation and Identity | 0/4 | Not started (awaiting funding) | - |
 | 2. Facility Registry and DKG Flywheel | 0/4 | Not started | - |
 | 3. Search, Discovery, and Reviews | 0/3 | Not started | - |
 | 4. Funding Finder and DAO Governance | 0/3 | Not started | - |

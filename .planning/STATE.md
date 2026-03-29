@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-03-29)
 
 **Core value:** Radical transparency at every touchpoint — facilities cannot hide behind marketing, funding is findable, reviews are real, and all data lives on a decentralized knowledge graph no single party controls.
-**Current focus:** Phase 1 — Foundation and Identity
+**Current focus:** Phase 0 — Fundraising Package (pre-funding, non-technical founder)
 
 ## Current Position
 
-Phase: 1 of 5 (Foundation and Identity)
-Plan: 0 of 4 in current phase
-Status: Ready to plan
-Last activity: 2026-03-28 — Roadmap created from PROJECT.md, REQUIREMENTS.md, and research corpus
+Phase: 0 of 6 (Fundraising Package)
+Plan: 0 of 3 in current phase
+Status: Context gathered, ready to plan
+Last activity: 2026-03-29 — Phase 0 added to roadmap, context gathered, GitHub set up as ground truth
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -27,6 +27,7 @@ Progress: [░░░░░░░░░░] 0%
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
+| 0. Fundraising Package | 0/3 | - | - |
 | 1. Foundation and Identity | 0/4 | - | - |
 | 2. Facility Registry and DKG Flywheel | 0/4 | - | - |
 | 3. Search, Discovery, and Reviews | 0/3 | - | - |
@@ -82,6 +83,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-03-28
-Stopped at: ROADMAP.md and STATE.md created. Roadmap covers all 42 v1 requirements across 5 phases. No plans created yet — ready for /gsd:plan-phase 1.
-Resume file: None
+Last session: 2026-03-29
+Stopped at: Phase 0 (Fundraising Package) added to roadmap ahead of technical phases. Context gathered for Phase 0 and Phase 1 technical decisions captured for post-funding. GitHub (paxtontribe/TakesaVillage) set as ground truth, replacing Notion. Ready for /gsd:plan-phase 0.
+Resume file: .planning/phases/00-fundraising-package/00-CONTEXT.md
