@@ -2,10 +2,10 @@ import { WaitlistForm } from "@/src/components/WaitlistForm";
 import { ExternalLink } from "lucide-react";
 
 const socialLinks = [
-  { name: "Instagram", href: "#", label: "Follow us on Instagram" },
-  { name: "TikTok", href: "#", label: "Follow us on TikTok" },
-  { name: "X", href: "#", label: "Follow us on X" },
-  { name: "LinkedIn", href: "#", label: "Follow us on LinkedIn" },
+  { name: "Instagram", href: "https://instagram.com/takesavillage", label: "Follow us on Instagram" },
+  { name: "TikTok", href: "https://tiktok.com/@takesavillage", label: "Follow us on TikTok" },
+  { name: "X", href: "https://x.com/takesavillage", label: "Follow us on X" },
+  { name: "LinkedIn", href: "https://linkedin.com/company/takesavillage", label: "Follow us on LinkedIn" },
 ];
 
 export function Footer() {
@@ -41,6 +41,8 @@ export function Footer() {
             <a
               key={link.name}
               href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label={link.label}
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
